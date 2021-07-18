@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66474C"
+    android:backgroundTint="#B13E3E"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="237dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="564dp"
+        android:backgroundTint="#58E40B"
+        android:ems="10"
+        android:inputType="number"
+        android:shadowColor="#AEA6A6"
+        android:text="first value"
+        android:textColor="#C066CF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/second"
+        android:layout_width="236dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="461dp"
+        android:backgroundTint="#135E04"
+        android:ems="10"
+        android:inputType="number"
+        android:text="second value"
+        android:textColor="#B97DC3"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/minus"
+        android:layout_width="105dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="359dp"
+        android:text="-"
+        android:textColor="#D1C9C9"
+        android:textColorHighlight="#BB6EC8"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/plus"
+        android:layout_width="105dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="359dp"
+        android:text="+"
+        android:textColor="#E8E3EA"
+        android:textColorHighlight="#B06DBC"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/mul"
+        android:layout_width="105dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="401dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="281dp"
+        android:text="*"
+        android:textColor="#F3EEEE"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/div"
+        android:layout_width="105dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="401dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="281dp"
+        android:text="/"
+        android:textColor="#F4EFEF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="180dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="148dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Answer"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="163dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="80dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#F80606"
+        android:shadowColor="#E3D3D3"
+        android:text="Answer :"
+        android:textColor="#7B804F"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
